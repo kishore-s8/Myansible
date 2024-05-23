@@ -4,9 +4,9 @@
   dnf:
     name: httpd
     state: present 
-  notify: started
+  notify: startwebserver
 
-- name: copy index file into node Iside 
+- name: copy index file into node side 
   template:
     src: templates/myindex.j2
     dest: /var/www/html/index.html
