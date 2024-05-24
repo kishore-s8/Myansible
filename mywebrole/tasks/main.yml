@@ -1,6 +1,6 @@
 ---
 # tasks file for mywebrole
-- name: start webserver
+- name: install webserver
   dnf:
     name: httpd
     state: present 
