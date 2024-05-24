@@ -1,8 +1,2 @@
-[mywebserver]
 172.31.44.183
 
-[myRedHat server]
-172.31.44.183
-
-[mywebserver: vars]
-mywebapackonredhat=httpd
